@@ -45,7 +45,7 @@ export default function Home() {
         latitude: 46.8721,
         longitude: -113.994,
       },
-      geoRadius: '120700',
+      geoRadius: '120700', // ~75 miles in meters
     },
   };
 
