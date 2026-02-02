@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, Suspense } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
 
 declare global {
@@ -13,7 +13,7 @@ declare global {
   }
 }
 
-export default function GoogleAnalytics() {
+function GoogleAnalyticsTracking() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
@@ -31,6 +31,12 @@ export default function GoogleAnalytics() {
       });
     }
   }, [pathname, searchParams, GA_MEASUREMENT_ID]);
+
+  return null;
+}
+
+export default function GoogleAnalytics() {
+  const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
   if (!GA_MEASUREMENT_ID) {
     return null;
@@ -55,6 +61,9 @@ export default function GoogleAnalytics() {
           `,
         }}
       />
+      <Suspense fallback={null}>
+        <GoogleAnalyticsTracking />
+      </Suspense>
     </>
   );
 }
