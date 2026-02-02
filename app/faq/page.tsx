@@ -8,7 +8,7 @@ const faqs = [
   {
     question: 'What type of insulation is best for my home?',
     answer:
-      'The best insulation type depends on your specific needs, budget, and the area being insulated. Spray foam offers the highest R-value and air sealing but costs more. Blown-in insulation is great for attics and retrofit applications. Batt insulation works well for new construction. We offer free consultations to help you choose the right option.',
+      'We specialize in blown-in cellulose attic insulation, which is ideal for Montana homes. It provides excellent thermal performance, is eco-friendly (made from recycled materials), and offers superior R-value for attics. We also provide basic attic air sealing before installation to maximize energy efficiency. We offer free consultations to assess your attic and recommend the best solution.',
   },
   {
     question: 'How much can I save on energy bills with new insulation?',
@@ -33,12 +33,12 @@ const faqs = [
   {
     question: 'Is spray foam insulation safe?',
     answer:
-      'Yes, once properly cured, spray foam insulation is completely safe. During installation, proper ventilation and protective equipment are used. After 24 hours, the area is safe to occupy. Spray foam is non-toxic, doesn\'t support mold growth, and improves indoor air quality by sealing out allergens and pollutants.',
+      'While we don\'t currently offer spray foam insulation services, we focus on blown-in cellulose, which is completely safe, non-toxic, and made from recycled materials. Cellulose is treated with fire retardants and provides excellent insulation performance without any off-gassing concerns.',
   },
   {
     question: 'Will insulation help with noise reduction?',
     answer:
-      'Yes! Insulation significantly reduces sound transmission between rooms and from outside. Spray foam provides excellent sound dampening, while blown-in cellulose and fiberglass batts also offer good acoustic benefits.',
+      'Yes! Blown-in cellulose insulation significantly reduces sound transmission. The dense, fibrous material provides excellent acoustic benefits, reducing noise from outside and between rooms in your home.',
   },
   {
     question: 'Do you offer financing options?',
@@ -48,7 +48,7 @@ const faqs = [
   {
     question: 'How long does insulation last?',
     answer:
-      'Quality insulation is a long-term investment. Spray foam insulation can last 80+ years, blown-in insulation 20-30 years, and fiberglass batts 20-30 years when properly installed. Most insulation types require minimal maintenance.',
+      'Blown-in cellulose insulation, when properly installed, can last 20-30 years or more with minimal maintenance. It maintains its R-value over time and won\'t settle significantly when installed to proper density.',
   },
   {
     question: 'Are there tax credits or rebates available?',
@@ -63,7 +63,7 @@ const faqs = [
   {
     question: 'Do you work on commercial properties?',
     answer:
-      'Yes, we provide insulation services for commercial and industrial properties, including office buildings, retail spaces, warehouses, and more. We have experience with projects of all sizes and can work around your business schedule.',
+      'We primarily focus on residential attic insulation projects in the Missoula area. For larger commercial projects, please contact us to discuss your specific needs.',
   },
 ];
 

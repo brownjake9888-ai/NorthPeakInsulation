@@ -48,7 +48,7 @@ export default function ContactPage() {
     });
   };
 
-  const phoneNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '(555) 123-4567';
+  const phoneNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '406-560-5214';
   const email = process.env.NEXT_PUBLIC_EMAIL || 'info@northpeakinsulation.com';
 
   return (
@@ -117,7 +117,7 @@ export default function ContactPage() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition"
-                      placeholder="(555) 123-4567"
+                      placeholder="406-560-5214"
                     />
                   </div>
 
@@ -247,7 +247,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-1">Service Area</h3>
                       <p className="text-gray-600">
-                        Serving residential and commercial properties within a 50-mile radius
+                        Serving Missoula, Montana and surrounding areas within ~75 miles
                       </p>
                     </div>
                   </div>
