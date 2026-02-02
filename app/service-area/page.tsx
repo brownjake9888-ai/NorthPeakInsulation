@@ -4,11 +4,11 @@ import CTAButton from '@/components/CTAButton';
 export const metadata: Metadata = {
   title: 'Service Area',
   description:
-    'We proudly serve residential and commercial properties throughout the region. Check if we service your area.',
+    'We serve Missoula, Montana and surrounding areas within ~75 miles including Lolo, Frenchtown, Bonner, Clinton, Florence, Stevensville, and Hamilton.',
   openGraph: {
     title: 'Service Area | NorthPeak Insulation',
     description:
-      'We proudly serve residential and commercial properties throughout the region. Check if we service your area.',
+      'We serve Missoula, Montana and surrounding areas within ~75 miles including Lolo, Frenchtown, Bonner, Clinton, Florence, Stevensville, and Hamilton.',
   },
 };
 
@@ -21,7 +21,7 @@ export default function ServiceAreaPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Our Service Area</h1>
             <p className="text-xl text-gray-700">
-              Serving residential and commercial properties throughout the region
+              Serving Missoula, Montana and surrounding communities within ~75 miles
             </p>
           </div>
         </div>
@@ -56,8 +56,8 @@ export default function ServiceAreaPage() {
                 <div>
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">Primary Service Area</h2>
                   <p className="text-lg text-gray-700 mb-4">
-                    We provide professional insulation services within a 50-mile radius of our base location.
-                    This includes:
+                    We provide professional blown-in cellulose attic insulation and air sealing services within
+                    approximately 75 miles of Missoula, Montana. This includes:
                   </p>
                 </div>
               </div>
@@ -77,7 +77,7 @@ export default function ServiceAreaPage() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Example County
+                    Missoula County
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -89,7 +89,7 @@ export default function ServiceAreaPage() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Sample County
+                    Ravalli County
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -101,7 +101,7 @@ export default function ServiceAreaPage() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Demo County
+                    Mineral County
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -113,7 +113,7 @@ export default function ServiceAreaPage() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Test County
+                    Lake County (partial)
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -131,7 +131,7 @@ export default function ServiceAreaPage() {
               </div>
 
               <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Cities We Serve:</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Cities & Towns We Serve:</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-center">
                     <svg
@@ -143,7 +143,7 @@ export default function ServiceAreaPage() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Your City
+                    Missoula
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -155,7 +155,7 @@ export default function ServiceAreaPage() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Nearby Town
+                    Lolo
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -167,7 +167,7 @@ export default function ServiceAreaPage() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Adjacent City
+                    Frenchtown
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -179,7 +179,7 @@ export default function ServiceAreaPage() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Local Township
+                    Bonner
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -191,7 +191,43 @@ export default function ServiceAreaPage() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Surrounding communities
+                    Clinton
+                  </li>
+                  <li className="flex items-center">
+                    <svg
+                      className="w-5 h-5 text-primary-600 mr-2 flex-shrink-0"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    Florence
+                  </li>
+                  <li className="flex items-center">
+                    <svg
+                      className="w-5 h-5 text-primary-600 mr-2 flex-shrink-0"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    Stevensville
+                  </li>
+                  <li className="flex items-center">
+                    <svg
+                      className="w-5 h-5 text-primary-600 mr-2 flex-shrink-0"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    Hamilton
                   </li>
                 </ul>
               </div>
