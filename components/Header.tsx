@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const phoneNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '(555) 123-4567';
+  const phoneNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '406-560-5214';
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
@@ -58,7 +58,7 @@ export default function Header() {
               className="bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition font-semibold"
               aria-label={`Call or text NorthPeak Insulation at ${phoneNumber}`}
             >
-              Call/Text Now
+              Call/Text {phoneNumber}
             </a>
           </div>
 

@@ -51,7 +51,7 @@ cp .env.example .env.local
 4. Configure your environment variables in `.env.local`:
 ```env
 # Public Environment Variables
-NEXT_PUBLIC_PHONE_NUMBER="(555) 123-4567"
+NEXT_PUBLIC_PHONE_NUMBER="406-560-5214"
 NEXT_PUBLIC_EMAIL="info@northpeakinsulation.com"
 NEXT_PUBLIC_GA_MEASUREMENT_ID="G-XXXXXXXXXX"
 NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION="your-verification-code"
