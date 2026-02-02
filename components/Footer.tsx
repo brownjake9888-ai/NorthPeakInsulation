@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-  const phoneNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '(555) 123-4567';
+  const phoneNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '406-560-5214';
   const email = process.env.NEXT_PUBLIC_EMAIL || 'info@northpeakinsulation.com';
 
   return (
