@@ -1,18 +1,18 @@
 # Security Notes
 
-## Known Vulnerabilities
+## Security Status
 
-### Next.js 14.2.35
-There is a known high severity vulnerability in Next.js 14.2.35 related to:
-- DoS via Image Optimizer remotePatterns (self-hosted only)
+✅ **All Known Vulnerabilities Resolved**
+
+This project now uses **Next.js 16.1.6**, which addresses all previously known security vulnerabilities including:
+- DoS via Image Optimizer remotePatterns
 - HTTP request deserialization DoS (React Server Components)
-
-**Impact**: These vulnerabilities primarily affect self-hosted applications. When deployed to platforms like Vercel, Netlify, or other managed hosting services, these vulnerabilities are mitigated by the platform's infrastructure.
-
-**Recommendation**: 
-- For immediate deployment: Deploy to Vercel or Netlify (recommended)
-- For self-hosted deployment: Consider upgrading to Next.js 15+ (breaking changes may apply)
-- Run `npm audit fix --force` to upgrade (requires testing after upgrade)
+- Information exposure in dev server
+- Cache key confusion for Image Optimization
+- Content injection vulnerability
+- Middleware redirect handling SSRF
+- Authorization bypass in middleware
+- Unbounded memory consumption via PPR
 
 ## Security Best Practices
 
@@ -21,6 +21,7 @@ There is a known high severity vulnerability in Next.js 14.2.35 related to:
 3. **Resend API**: Keep your Resend API key secure and rotate periodically
 4. **CORS**: API routes are protected by Next.js's built-in security
 5. **Contact Form**: Implements basic validation and sanitization
+6. **Dependencies**: Run `npm audit` regularly to check for new vulnerabilities
 
 ## Reporting Security Issues
 
