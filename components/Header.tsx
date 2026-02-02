@@ -56,9 +56,9 @@ export default function Header() {
             <a
               href={`tel:${phoneNumber.replace(/\D/g, '')}`}
               className="bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition font-semibold"
-              aria-label={`Call NorthPeak Insulation at ${phoneNumber}`}
+              aria-label={`Call or text NorthPeak Insulation at ${phoneNumber}`}
             >
-              Call Now
+              Call/Text Now
             </a>
           </div>
 

@@ -4,11 +4,11 @@ import CTAButton from '@/components/CTAButton';
 export const metadata: Metadata = {
   title: 'Our Services',
   description:
-    'Comprehensive insulation services including spray foam, blown-in, batt insulation, and insulation removal for residential and commercial properties.',
+    'Professional blown-in cellulose attic insulation and basic attic air sealing services for residential properties in Missoula, Montana.',
   openGraph: {
     title: 'Our Services | NorthPeak Insulation',
     description:
-      'Comprehensive insulation services including spray foam, blown-in, batt insulation, and insulation removal for residential and commercial properties.',
+      'Professional blown-in cellulose attic insulation and basic attic air sealing services for residential properties in Missoula, Montana.',
   },
 };
 
@@ -30,52 +30,7 @@ export default function ServicesPage() {
       {/* Services */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          {/* Spray Foam Insulation */}
-          <div id="spray-foam" className="mb-16 scroll-mt-20">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-              <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Spray Foam Insulation</h2>
-                <p className="text-gray-600 mb-4">
-                  Spray foam insulation is the gold standard for energy efficiency and air sealing. It expands to
-                  fill gaps and cracks, creating an airtight barrier that dramatically reduces energy loss.
-                </p>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Benefits:</h3>
-                <ul className="list-disc list-inside text-gray-600 space-y-2 mb-6">
-                  <li>Highest R-value per inch of any insulation type</li>
-                  <li>Superior air sealing properties</li>
-                  <li>Moisture barrier protection</li>
-                  <li>Reduces energy costs by up to 50%</li>
-                  <li>Long-lasting and durable</li>
-                  <li>Helps prevent mold and mildew</li>
-                </ul>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Best For:</h3>
-                <p className="text-gray-600 mb-6">
-                  Attics, crawl spaces, walls, and new construction. Ideal for maximum energy efficiency and
-                  comfort.
-                </p>
-              </div>
-              <div className="bg-primary-100 rounded-lg p-8 text-center">
-                <svg
-                  className="w-32 h-32 text-primary-600 mx-auto mb-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
-                  />
-                </svg>
-              </div>
-            </div>
-          </div>
-
-          <hr className="my-16 border-gray-200" />
-
-          {/* Blown-In Insulation */}
+          {/* Blown-In Cellulose Insulation */}
           <div id="blown-in" className="mb-16 scroll-mt-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1 bg-primary-100 rounded-lg p-8 text-center">
@@ -95,24 +50,26 @@ export default function ServicesPage() {
                 </svg>
               </div>
               <div className="order-1 md:order-2">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Blown-In Insulation</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">Blown-In Cellulose Attic Insulation</h2>
                 <p className="text-gray-600 mb-4">
-                  Blown-in insulation is a cost-effective solution that can be quickly installed in attics,
-                  walls, and hard-to-reach spaces. Available in cellulose or fiberglass.
+                  Blown-in cellulose insulation is a cost-effective, eco-friendly solution that provides excellent
+                  coverage in attic spaces. Made from recycled paper products treated with fire retardants, it's an
+                  environmentally responsible choice for your home.
                 </p>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Benefits:</h3>
                 <ul className="list-disc list-inside text-gray-600 space-y-2 mb-6">
                   <li>Fast and efficient installation</li>
-                  <li>Excellent coverage in irregular spaces</li>
+                  <li>Excellent coverage in irregular attic spaces</li>
                   <li>Cost-effective energy savings</li>
-                  <li>Fire-resistant options available</li>
-                  <li>Eco-friendly cellulose options</li>
+                  <li>Fire-resistant properties</li>
+                  <li>Eco-friendly - made from recycled materials</li>
                   <li>Minimal disruption to your home</li>
+                  <li>Superior sound dampening</li>
                 </ul>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Best For:</h3>
                 <p className="text-gray-600 mb-6">
-                  Attic spaces, existing wall cavities, and retrofit applications. Great for quick energy
-                  efficiency upgrades.
+                  Attic insulation upgrades, existing homes, and energy efficiency improvements. Ideal for Montana's
+                  climate with excellent thermal performance year-round.
                 </p>
               </div>
             </div>
@@ -120,28 +77,30 @@ export default function ServicesPage() {
 
           <hr className="my-16 border-gray-200" />
 
-          {/* Batt Insulation */}
-          <div id="batt" className="mb-16 scroll-mt-20">
+          {/* Attic Air Sealing */}
+          <div id="air-sealing" className="mb-16 scroll-mt-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Batt Insulation</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">Basic Attic Air Sealing</h2>
                 <p className="text-gray-600 mb-4">
-                  Fiberglass batt insulation is the traditional choice for new construction and renovation
-                  projects. Pre-cut batts are easy to install in standard wall and ceiling cavities.
+                  Before installing blown-in insulation, we seal attic penetrations to prevent air leakage. This
+                  critical step ensures your new insulation performs at its best by preventing warm air from escaping
+                  through gaps around pipes, wires, and other openings.
                 </p>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Benefits:</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">What We Seal:</h3>
                 <ul className="list-disc list-inside text-gray-600 space-y-2 mb-6">
-                  <li>Affordable and widely available</li>
-                  <li>Easy to install in standard spaces</li>
-                  <li>Good thermal and sound insulation</li>
-                  <li>Fire-resistant properties</li>
-                  <li>Available in various R-values</li>
-                  <li>DIY-friendly option</li>
+                  <li>Holes around plumbing pipes and vents</li>
+                  <li>Electrical wire penetrations</li>
+                  <li>Gaps around chimneys and flues</li>
+                  <li>Attic hatch or door openings</li>
+                  <li>Light fixture penetrations</li>
+                  <li>Other air leakage points</li>
                 </ul>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Best For:</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Why It Matters:</h3>
                 <p className="text-gray-600 mb-6">
-                  New construction, open walls and ceilings, and budget-conscious projects. Ideal for standard
-                  framing.
+                  Air sealing is essential for maximizing insulation effectiveness. Even small gaps can allow
+                  significant heat loss, reducing your energy savings. We seal these penetrations before blowing
+                  insulation to ensure optimal performance.
                 </p>
               </div>
               <div className="bg-primary-100 rounded-lg p-8 text-center">
@@ -156,54 +115,9 @@ export default function ServicesPage() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={1.5}
-                    d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
+                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
                   />
                 </svg>
-              </div>
-            </div>
-          </div>
-
-          <hr className="my-16 border-gray-200" />
-
-          {/* Insulation Removal */}
-          <div id="removal" className="mb-16 scroll-mt-20">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-              <div className="order-2 md:order-1 bg-primary-100 rounded-lg p-8 text-center">
-                <svg
-                  className="w-32 h-32 text-primary-600 mx-auto mb-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
-                  />
-                </svg>
-              </div>
-              <div className="order-1 md:order-2">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Insulation Removal</h2>
-                <p className="text-gray-600 mb-4">
-                  Sometimes old insulation needs to be removed before installing new material. We safely remove
-                  damaged, contaminated, or ineffective insulation.
-                </p>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">When You Need Removal:</h3>
-                <ul className="list-disc list-inside text-gray-600 space-y-2 mb-6">
-                  <li>Water damage or mold contamination</li>
-                  <li>Pest infestation</li>
-                  <li>Degraded or compressed insulation</li>
-                  <li>Before installing new insulation</li>
-                  <li>Renovation or remodeling projects</li>
-                  <li>Asbestos-containing materials (handled separately)</li>
-                </ul>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Our Process:</h3>
-                <p className="text-gray-600 mb-6">
-                  We use professional equipment and follow safety protocols to remove old insulation quickly and
-                  safely, preparing your space for new, efficient insulation.
-                </p>
               </div>
             </div>
           </div>

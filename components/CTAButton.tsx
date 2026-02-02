@@ -83,7 +83,7 @@ export default function CTAButton({ variant = 'call', className = '', children }
     if (children) return children;
     switch (variant) {
       case 'call':
-        return 'Call Now';
+        return `Call/Text ${phoneNumber}`;
       case 'text':
         return 'Text Us';
       case 'email':

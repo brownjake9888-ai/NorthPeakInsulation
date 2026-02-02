@@ -7,19 +7,21 @@ import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 export const metadata: Metadata = {
   title: {
-    default: 'NorthPeak Insulation - Professional Insulation Services',
+    default: 'NorthPeak Insulation - Missoula, Montana Attic Insulation Services',
     template: '%s | NorthPeak Insulation',
   },
   description:
-    'Professional insulation services for residential and commercial properties. Spray foam, blown-in, and batt insulation. Free estimates.',
+    'Professional blown-in cellulose attic insulation and air sealing services in Missoula, Montana. Serving homes within ~75 miles. Free estimates.',
   keywords: [
     'insulation',
-    'spray foam',
     'blown-in insulation',
-    'batt insulation',
+    'cellulose insulation',
+    'attic insulation',
+    'air sealing',
     'home insulation',
-    'commercial insulation',
     'energy efficiency',
+    'Missoula Montana',
+    'Missoula insulation',
   ],
   authors: [{ name: 'NorthPeak Insulation' }],
   creator: 'NorthPeak Insulation',
@@ -34,9 +36,9 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://northpeakinsulation.com',
     siteName: 'NorthPeak Insulation',
-    title: 'NorthPeak Insulation - Professional Insulation Services',
+    title: 'NorthPeak Insulation - Missoula, Montana Attic Insulation Services',
     description:
-      'Professional insulation services for residential and commercial properties. Spray foam, blown-in, and batt insulation. Free estimates.',
+      'Professional blown-in cellulose attic insulation and air sealing services in Missoula, Montana. Serving homes within ~75 miles. Free estimates.',
     images: [
       {
         url: '/og-image.jpg',
@@ -48,9 +50,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NorthPeak Insulation - Professional Insulation Services',
+    title: 'NorthPeak Insulation - Missoula, Montana Attic Insulation Services',
     description:
-      'Professional insulation services for residential and commercial properties. Spray foam, blown-in, and batt insulation. Free estimates.',
+      'Professional blown-in cellulose attic insulation and air sealing services in Missoula, Montana. Serving homes within ~75 miles. Free estimates.',
     images: ['/og-image.jpg'],
   },
   robots: {

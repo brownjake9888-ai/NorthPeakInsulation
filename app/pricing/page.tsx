@@ -4,11 +4,11 @@ import CTAButton from '@/components/CTAButton';
 export const metadata: Metadata = {
   title: 'Pricing',
   description:
-    'Transparent pricing for insulation services. Get a free estimate for spray foam, blown-in, and batt insulation.',
+    'Transparent pricing for blown-in cellulose attic insulation and attic air sealing services in Missoula, Montana. Get a free estimate.',
   openGraph: {
     title: 'Pricing | NorthPeak Insulation',
     description:
-      'Transparent pricing for insulation services. Get a free estimate for spray foam, blown-in, and batt insulation.',
+      'Transparent pricing for blown-in cellulose attic insulation and attic air sealing services in Missoula, Montana. Get a free estimate.',
   },
 };
 
@@ -82,10 +82,10 @@ export default function PricingPage() {
                     />
                   </svg>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Insulation Type</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Service Type</h3>
                     <p className="text-gray-600">
-                      Spray foam costs more than blown-in or batt insulation, but offers superior performance
-                      and energy savings.
+                      We specialize in blown-in cellulose insulation and attic air sealing, providing
+                      cost-effective solutions for Montana homes.
                     </p>
                   </div>
                 </div>
@@ -150,81 +150,19 @@ export default function PricingPage() {
       {/* Estimated Pricing Ranges */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Typical Price Ranges</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Service Pricing</h2>
               <p className="text-lg text-gray-600">
                 Estimated costs per square foot (materials and labor included)
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {/* Spray Foam */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+              {/* Blown-In Cellulose */}
               <div className="bg-white rounded-lg shadow-md p-8 border-t-4 border-primary-600">
                 <div className="text-center mb-6">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Spray Foam</h3>
-                  <div className="text-4xl font-bold text-primary-600 mb-2">$1-$3</div>
-                  <div className="text-gray-600">per square foot</div>
-                </div>
-                <ul className="space-y-3 mb-6">
-                  <li className="flex items-start">
-                    <svg
-                      className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">Highest R-value</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg
-                      className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">Air sealing included</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg
-                      className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">Best energy savings</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg
-                      className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">Moisture barrier</span>
-                  </li>
-                </ul>
-                <p className="text-sm text-gray-500 italic">
-                  *Closed-cell foam costs more than open-cell
-                </p>
-              </div>
-
-              {/* Blown-In */}
-              <div className="bg-white rounded-lg shadow-md p-8 border-t-4 border-primary-500">
-                <div className="text-center mb-6">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Blown-In</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Blown-In Cellulose</h3>
                   <div className="text-4xl font-bold text-primary-600 mb-2">$0.75-$2</div>
                   <div className="text-gray-600">per square foot</div>
                 </div>
@@ -251,7 +189,7 @@ export default function PricingPage() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-600">Good R-value</span>
+                    <span className="text-gray-600">Excellent R-value</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -263,69 +201,7 @@ export default function PricingPage() {
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-600">Fills gaps easily</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg
-                      className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">Cost-effective</span>
-                  </li>
-                </ul>
-                <p className="text-sm text-gray-500 italic">
-                  *Cellulose and fiberglass options available
-                </p>
-              </div>
-
-              {/* Batt */}
-              <div className="bg-white rounded-lg shadow-md p-8 border-t-4 border-primary-400">
-                <div className="text-center mb-6">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Batt</h3>
-                  <div className="text-4xl font-bold text-primary-600 mb-2">$0.50-$1.50</div>
-                  <div className="text-gray-600">per square foot</div>
-                </div>
-                <ul className="space-y-3 mb-6">
-                  <li className="flex items-start">
-                    <svg
-                      className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">Most affordable</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg
-                      className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">Easy installation</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg
-                      className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">Standard R-values</span>
+                    <span className="text-gray-600">Eco-friendly material</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -341,9 +217,83 @@ export default function PricingPage() {
                   </li>
                 </ul>
                 <p className="text-sm text-gray-500 italic">
-                  *Best for new construction
+                  *Made from recycled materials
                 </p>
               </div>
+
+              {/* Attic Air Sealing */}
+              <div className="bg-white rounded-lg shadow-md p-8 border-t-4 border-primary-500">
+                <div className="text-center mb-6">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Attic Air Sealing</h3>
+                  <div className="text-4xl font-bold text-primary-600 mb-2">Included</div>
+                  <div className="text-gray-600">with insulation</div>
+                </div>
+                <ul className="space-y-3 mb-6">
+                  <li className="flex items-start">
+                    <svg
+                      className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-600">Seal penetrations</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg
+                      className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-600">Prevent air leaks</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg
+                      className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-600">Maximize efficiency</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg
+                      className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-600">Essential prep work</span>
+                  </li>
+                </ul>
+                <p className="text-sm text-gray-500 italic">
+                  *Done before insulation install
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-12 bg-primary-50 rounded-lg p-8 text-center">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Typical Attic Project Cost</h3>
+              <p className="text-lg text-gray-600 mb-4">
+                Most residential attic insulation projects in the Missoula area range from{' '}
+                <span className="font-bold text-primary-600">$1,500 - $3,500</span>, depending on attic size,
+                current insulation levels, and desired R-value.
+              </p>
+              <p className="text-gray-600">
+                Every project is unique. Contact us for an accurate quote based on your specific attic space.
+              </p>
             </div>
           </div>
         </div>

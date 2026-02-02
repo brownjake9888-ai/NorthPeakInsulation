@@ -74,23 +74,13 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Our Services</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/services#spray-foam" className="text-gray-400 hover:text-white transition">
-                  Spray Foam Insulation
-                </Link>
-              </li>
-              <li>
                 <Link href="/services#blown-in" className="text-gray-400 hover:text-white transition">
-                  Blown-In Insulation
+                  Blown-In Cellulose Insulation
                 </Link>
               </li>
               <li>
-                <Link href="/services#batt" className="text-gray-400 hover:text-white transition">
-                  Batt Insulation
-                </Link>
-              </li>
-              <li>
-                <Link href="/services#removal" className="text-gray-400 hover:text-white transition">
-                  Insulation Removal
+                <Link href="/services#air-sealing" className="text-gray-400 hover:text-white transition">
+                  Attic Air Sealing
                 </Link>
               </li>
             </ul>

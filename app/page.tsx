@@ -5,7 +5,7 @@ import CTAButton from '@/components/CTAButton';
 export const metadata: Metadata = {
   title: 'Home',
   description:
-    'NorthPeak Insulation provides professional insulation services for residential and commercial properties. Get a free estimate today!',
+    'NorthPeak Insulation provides professional blown-in cellulose attic insulation and attic air sealing services in Missoula, Montana. Get a free estimate today!',
 };
 
 export default function Home() {
@@ -16,20 +16,19 @@ export default function Home() {
     image: 'https://northpeakinsulation.com/og-image.jpg',
     '@id': 'https://northpeakinsulation.com',
     url: 'https://northpeakinsulation.com',
-    telephone: process.env.NEXT_PUBLIC_PHONE_NUMBER || '(555) 123-4567',
+    telephone: process.env.NEXT_PUBLIC_PHONE_NUMBER || '406-560-5214',
     email: process.env.NEXT_PUBLIC_EMAIL || 'info@northpeakinsulation.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '123 Main St',
-      addressLocality: 'Your City',
-      addressRegion: 'Your State',
-      postalCode: '12345',
+      addressLocality: 'Missoula',
+      addressRegion: 'MT',
+      postalCode: '59801',
       addressCountry: 'US',
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 40.7128,
-      longitude: -74.006,
+      latitude: 46.8721,
+      longitude: -113.994,
     },
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
@@ -43,10 +42,10 @@ export default function Home() {
       '@type': 'GeoCircle',
       geoMidpoint: {
         '@type': 'GeoCoordinates',
-        latitude: 40.7128,
-        longitude: -74.006,
+        latitude: 46.8721,
+        longitude: -113.994,
       },
-      geoRadius: '50000',
+      geoRadius: '120700', // ~75 miles in meters
     },
   };
 
@@ -62,10 +61,11 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Professional Insulation Services for Your Home or Business
+              Professional Attic Insulation Services in Missoula, Montana
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 mb-8">
-              Save on energy costs with expert insulation installation. Free estimates available.
+              Blown-in cellulose insulation and attic air sealing. Save on energy costs with expert installation.
+              Free estimates available.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <CTAButton variant="call" className="bg-primary-600 text-white hover:bg-primary-700 text-lg" />
@@ -163,32 +163,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
-            <p className="text-xl text-gray-600">Professional insulation solutions for every need</p>
+            <p className="text-xl text-gray-600">Professional insulation solutions for Missoula-area homes</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-              <svg
-                className="w-12 h-12 text-primary-600 mb-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
-                />
-              </svg>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Spray Foam Insulation</h3>
-              <p className="text-gray-600 mb-4">
-                High-performance spray foam for maximum energy efficiency and air sealing.
-              </p>
-              <Link href="/services#spray-foam" className="text-primary-600 hover:text-primary-700 font-semibold">
-                Learn More →
-              </Link>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
               <svg
                 className="w-12 h-12 text-primary-600 mb-4"
@@ -204,9 +181,10 @@ export default function Home() {
                   d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
                 />
               </svg>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Blown-In Insulation</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Blown-In Cellulose Attic Insulation</h3>
               <p className="text-gray-600 mb-4">
-                Quick and effective blown-in cellulose or fiberglass insulation for attics and walls.
+                Cost-effective, eco-friendly cellulose insulation for attics. Made from recycled materials with
+                excellent thermal performance for Montana's climate.
               </p>
               <Link href="/services#blown-in" className="text-primary-600 hover:text-primary-700 font-semibold">
                 Learn More →
@@ -224,37 +202,15 @@ export default function Home() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
-                  d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
+                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
                 />
               </svg>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Batt Insulation</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Basic Attic Air Sealing</h3>
               <p className="text-gray-600 mb-4">
-                Traditional fiberglass batt insulation for new construction and renovations.
+                Seal attic penetrations around pipes, wires, and other openings before installing insulation to
+                maximize energy efficiency and prevent heat loss.
               </p>
-              <Link href="/services#batt" className="text-primary-600 hover:text-primary-700 font-semibold">
-                Learn More →
-              </Link>
-            </div>
-            <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-              <svg
-                className="w-12 h-12 text-primary-600 mb-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
-                />
-              </svg>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Insulation Removal</h3>
-              <p className="text-gray-600 mb-4">
-                Safe removal of old or damaged insulation before installing new material.
-              </p>
-              <Link href="/services#removal" className="text-primary-600 hover:text-primary-700 font-semibold">
+              <Link href="/services#air-sealing" className="text-primary-600 hover:text-primary-700 font-semibold">
                 Learn More →
               </Link>
             </div>
